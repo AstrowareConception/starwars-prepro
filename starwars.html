@@ -1,0 +1,61 @@
+<html>
+
+<body id="body" onclick="play()">
+
+<!-- Place in document head -->
+<link rel="stylesheet" href="starwarsintro.css">
+
+<!-- Place in Body where you'd like intro to appear -->
+<div class="star-wars-intro">
+
+  <!-- Blue Intro Text -->
+  <p class="intro-text">
+    Dans une lointaine, très lointaine académie ...
+  </p>
+
+  <!-- Logo Image or Text goes in here -->
+  <h2 class="main-logo" style="width:5.6em;    margin-left: -2.8em">
+    <img src="img/star-wars-intro.png">
+  </h2>
+
+  <!-- All Scrolling Content Goes in here -->
+  <div class="main-content">
+
+    <div class="title-content">
+      <p class="content-header" style="text-transform:uppercase">Compétences Prépro</p>
+
+      <br>
+
+      <p class="content-body">
+C'est une époque troublée : monde incertain, chômage, pandémie... Difficile pour les apprentis jedis de s'y retrouver dans leur orientation et leur projet d'étude. <br><br>
+
+Fort heureusement les maîtres jedis de l'orientation les ont aidé dans cette voie en partageant leur savoir : leurs ressources en matière de formation et d'emploi.
+Les maîtres ont également livré toutes leurs conseils pour s'ouvrir au monde et découvrir par soi même la réalité des métiers. <br><br>
+
+A l'aide d'activités, les padawans étudiants ont aussi pu mieux se connaître pour mieux comprendre ce qui les animait. <br><br>
+
+Poursuivis par la nécessité de trouver un projet professionnel, les apprentis jedis ont encore un long chemin qui les attend dans la construction de leur avenir. <br><br>
+
+Que la force soit avec vous<br><br>
+
+<a href="#" class="space-button">Ceci est un lien</a>
+      </p>
+    </div>
+  </div>
+</div>
+
+<script>
+      function play() {
+        var audio = document.getElementById("audio");
+        audio.play();
+      }
+</script>
+
+
+    <audio id="audio" src="StarWars Start Windows.mp3"></audio>
+
+
+
+
+</body>
+</html>
